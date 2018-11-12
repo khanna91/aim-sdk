@@ -32,3 +32,6 @@ dep-report/*.xml
 .secret*
 /helm/.dev-secret
 /helm/.staging-secret
+
+# dotenv environment variables file
+.env
