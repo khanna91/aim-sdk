@@ -1,0 +1,8 @@
+{
+  "name": "aim-sdk",
+  "version": "1.0.0",
+  "description": "The SDK to access Astro Identity Core functionality",
+  "main": "index.js",
+  "author": "Rahul Khanna",
+  "license": "MIT"
+}
