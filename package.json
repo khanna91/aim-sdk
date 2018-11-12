@@ -5,14 +5,22 @@
   "main": "src/index.js",
   "author": "Rahul Khanna",
   "license": "MIT",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test nyc --reporter=html --reporter=text mocha --exit --timeout 20000 --recursive \"lib/**/*.spec.js\"",
+    "test:unit": "cross-env NODE_ENV=test mocha --exit --timeout 20000 --recursive \"lib/**/*.spec.js\""
+  },
   "devDependencies": {
+    "chai": "^4.2.0",
     "eslint": "^5.9.0",
     "eslint-config-astro": "^1.0.7",
     "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
     "prettier-eslint": "^8.8.2"
   },
   "dependencies": {
     "aws-sdk": "^2.353.0",
+    "ioredis": "^4.2.0",
     "lodash": "^4.17.11"
   }
 }
