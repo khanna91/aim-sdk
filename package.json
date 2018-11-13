@@ -1,5 +1,5 @@
 {
-  "name": "aim-sdk",
+  "name": "@astro-my/aim-sdk",
   "version": "1.0.0",
   "description": "The SDK to access Astro Identity Core functionality",
   "main": "src/index.js",
