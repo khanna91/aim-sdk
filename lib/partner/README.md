@@ -4,7 +4,7 @@ This sdk will connect with partner service and fetch the details of partner(s)
 
 ## Usage
 ```
-const AIM = require('@astro-my/aim');
+const AIM = require('@astro-my/aim-sdk');
 
 // All config mention below are required
 Partner = new AIM.Partner({

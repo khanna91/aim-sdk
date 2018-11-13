@@ -29,7 +29,7 @@ Steps to use
   
   Usage:
   ```
-  const AIM = require('@astro-my/aim');
+  const AIM = require('@astro-my/aim-sdk');
   
   const TemplateFetcher = new AIM.Template({
     awsRegion: 'ap-southeast-1',
