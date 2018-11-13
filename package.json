@@ -27,5 +27,23 @@
     "ioredis": "^4.2.0",
     "lodash": "^4.17.11",
     "mustache": "^3.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khanna91/astro-cache.git"
+  },
+  "keywords": [
+    "cache-orm",
+    "ioredis",
+    "redis",
+    "template",
+    "s3",
+    "aws",
+    "template-engine",
+    "node",
+    "nodejs",
+    "express",
+    "expressjs",
+    "astro"
+  ]
 }
