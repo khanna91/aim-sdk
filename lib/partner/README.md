@@ -7,7 +7,7 @@ This sdk will connect with partner service and fetch the details of partner(s)
 const AIM = require('@astro-my/aim-sdk');
 
 // All config mention below are required
-Partner = new AIM.Partner({
+Partner = AIM.Partner({
   partnerEndpoint: 'http://localhost:3000/api/v1',
   cacheHost: '127.0.0.1',
   cachePort: 6379,

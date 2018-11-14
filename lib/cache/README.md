@@ -24,7 +24,7 @@ use default values**
 ```
 const AIM = require('@astro-my/aim-sdk');
 
-const cache = new AIM.Cache({
+const cache = AIM.Cache({
   cacheHost: '127.0.0.1',
   cachePort: 6379
 });

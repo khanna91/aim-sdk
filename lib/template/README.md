@@ -31,7 +31,7 @@ Steps to use
   ```
   const AIM = require('@astro-my/aim-sdk');
   
-  const TemplateFetcher = new AIM.Template({
+  const TemplateFetcher = AIM.Template({
     awsRegion: 'ap-southeast-1',
     awsKey: process.env.awsKey,
     awsSecret: process.env.awsSecret,
